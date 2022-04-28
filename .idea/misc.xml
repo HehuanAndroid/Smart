@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/VcomSmart/VcomSmart_V1.0.9_1/VcomSmart_V1.0.9_1/Smart/app/src/main/res/drawable/confirmdialog.xml" value="0.1185" />
+        <entry key="..\:/VcomSmart/VcomSmart_V1.0.9_1/VcomSmart_V1.0.9_1/Smart/app/src/main/res/drawable/ic_arrow_back.xml" value="0.1185" />
+        <entry key="..\:/VcomSmart/VcomSmart_V1.0.9_1/VcomSmart_V1.0.9_1/Smart/app/src/main/res/layout/activity_add_scene.xml" value="0.1897644927536232" />
+        <entry key="..\:/VcomSmart/VcomSmart_V1.0.9_1/VcomSmart_V1.0.9_1/Smart/app/src/main/res/layout/activity_app_help.xml" value="0.1897644927536232" />
+        <entry key="..\:/VcomSmart/VcomSmart_V1.0.9_1/VcomSmart_V1.0.9_1/Smart/app/src/main/res/layout/activity_device_setting.xml" value="0.21784420289855072" />
+        <entry key="..\:/VcomSmart/VcomSmart_V1.0.9_1/VcomSmart_V1.0.9_1/Smart/app/src/main/res/layout/activity_doc.xml" value="0.1897644927536232" />
+        <entry key="..\:/VcomSmart/VcomSmart_V1.0.9_1/VcomSmart_V1.0.9_1/Smart/app/src/main/res/layout/activity_edit_region.xml" value="0.1897644927536232" />
+        <entry key="..\:/VcomSmart/VcomSmart_V1.0.9_1/VcomSmart_V1.0.9_1/Smart/app/src/main/res/layout/activity_login.xml" value="0.21784420289855072" />
+        <entry key="..\:/VcomSmart/VcomSmart_V1.0.9_1/VcomSmart_V1.0.9_1/Smart/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/VcomSmart/VcomSmart_V1.0.9_1/VcomSmart_V1.0.9_1/Smart/app/src/main/res/layout/activity_open.xml" value="0.21784420289855072" />
+        <entry key="..\:/VcomSmart/VcomSmart_V1.0.9_1/VcomSmart_V1.0.9_1/Smart/app/src/main/res/layout/activity_scan_by_ble.xml" value="0.21784420289855072" />
+        <entry key="..\:/VcomSmart/VcomSmart_V1.0.9_1/VcomSmart_V1.0.9_1/Smart/app/src/main/res/layout/activity_scene_manager.xml" value="0.1897644927536232" />
+        <entry key="..\:/VcomSmart/VcomSmart_V1.0.9_1/VcomSmart_V1.0.9_1/Smart/app/src/main/res/layout/confirm_dialog_quit.xml" value="0.1897644927536232" />
+        <entry key="..\:/VcomSmart/VcomSmart_V1.0.9_1/VcomSmart_V1.0.9_1/Smart/app/src/main/res/layout/dialog_request_permission.xml" value="0.15896739130434784" />
+        <entry key="..\:/VcomSmart/VcomSmart_V1.0.9_1/VcomSmart_V1.0.9_1/Smart/app/src/main/res/layout/dialog_select_scenes.xml" value="0.1897644927536232" />
+        <entry key="..\:/VcomSmart/VcomSmart_V1.0.9_1/VcomSmart_V1.0.9_1/Smart/app/src/main/res/layout/fragment_device.xml" value="0.21784420289855072" />
+        <entry key="..\:/VcomSmart/VcomSmart_V1.0.9_1/VcomSmart_V1.0.9_1/Smart/app/src/main/res/layout/fragment_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/VcomSmart/VcomSmart_V1.0.9_1/VcomSmart_V1.0.9_1/Smart/app/src/main/res/layout/fragment_me.xml" value="0.1897644927536232" />
+        <entry key="..\:/VcomSmart/VcomSmart_V1.0.9_1/VcomSmart_V1.0.9_1/Smart/app/src/main/res/layout/fragment_scene.xml" value="0.21784420289855072" />
+        <entry key="..\:/VcomSmart/VcomSmart_V1.0.9_1/VcomSmart_V1.0.9_1/Smart/app/src/main/res/layout/item_select_scene.xml" value="0.1897644927536232" />
+        <entry key="..\:/VcomSmart/VcomSmart_V1.0.9_1/VcomSmart_V1.0.9_1/Smart/app/src/main/res/layout/item_touch_switch.xml" value="0.1897644927536232" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://pwtim/svn/Repository/vcom/vcom-A/Smart" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

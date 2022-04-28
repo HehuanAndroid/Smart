@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.vcom.smart">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <application
+        android:name=".VcomApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app_logo_2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Smart"
+        android:configChanges="locale"
+        tools:ignore="AllowBackup">
+
+        <activity
+            android:name=".ui.OpenActivity"
+            android:screenOrientation="portrait">
+            <!--banlap: 调试 跳过检测账号界面 禁用代码（之后需要恢复原样）-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.ScanByBleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.DocActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.EditRegionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.AppHelpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.DeviceSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.DeviceSafeBoxActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.SmartTerminalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.TimingControlActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ElectricityStatisticsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.SecurityWarningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.AddSceneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.SceneManagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:screenOrientation="portrait" >
+
+            <!--调试-->
+           <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".ui.CustomErrorActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".server.VcomService" />
+    </application>
+
+</manifest>

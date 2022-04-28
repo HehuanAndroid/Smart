@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="light_green">#61E8C7</color>
+    <color name="green">#00CC99</color>
+    <color name="deep_green">#34006666</color>
+    <color name="deep_green_A179">#00A179</color>
+    <color name="light_red">#FF3636</color>
+    <color name="red_f3">#f33213</color>
+    <color name="red">#FF0000</color>
+    <color name="deep_red">#C50000</color>
+    <color name="deep_yellow">#C39C28</color>
+    <color name="yellow">#FFCC33</color>
+    <color name="blue">#33CCFF</color>
+    <color name="orange">#FF8C00</color>
+
+    <color name="gray_66">#666666</color>
+    <color name="gray_99">#999999</color>
+    <color name="gray_c9">#C9C9C9</color>
+    <color name="gray_cc">#CCCCCC</color>
+    <color name="gray_f1">#F1F1F1</color>
+    <color name="gray_f2">#f2f2f2</color>
+    <color name="gray_f6">#F6F6F6</color>
+
+
+    <color name="background_color">#F9F9F9</color>
+    <color name="background_color_F2">#F2F2F2</color>
+
+    <color name="text_color_default">#8A000000</color>
+    <color name="black_alpha_66">#66000000</color>
+    <color name="black_alpha">#A6000000</color>
+    <color name="black_33">#333333</color>
+    <color name="alpha">#00000000</color>
+
+</resources>

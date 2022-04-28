@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">Vcom Smart</string>
+    <string name="user_id">ID:%s</string>
+    <string name="rule_password">1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="rule_password_lowercase">1234567890abcdefghijklmnopqrstuvwxyz</string>
+
+    <string name="login_name_title">唯康</string>
+    <string name="login_name_title_2">光电智能 唯康智控</string>
+    <string name="login_username">账号</string>
+    <string name="login_password">密码</string>
+    <string name="login_username_information">请输入账号</string>
+    <string name="login_password_information">请输入密码</string>
+    <string name="login_forget_password">忘记密码?</string>
+    <string name="login_login">登录</string>
+    <string name="login_agreement_title">登录即代表阅读并同意</string>
+    <string name="login_agreement_title_2">《用户协议》</string>
+    <string name="login_agreement_title_3">和</string>
+    <string name="login_agreement_title_4">《隐私政策》</string>
+    <string name="login_app_help">App使用帮助</string>
+
+    <string name="help_question_1_title">1.软件登录的帐号怎样获取？</string>
+    <string name="help_question_1">答：请联系销售员获取，由唯康教育公司提供账号及密码后方可使用软件。</string>
+    <string name="help_question_2_title">2.使用设备的种类和连接控制方式</string>
+    <string name="help_question_2">答：使用的设备只能限定为唯康指定的设备种类，不兼容其它非指定设备类型； 使用蓝牙和万维网方式进行连接和控制设备。</string>
+    <string name="help_question_3_title">3.恢复设备方式</string>
+    <string name="help_question_3">答：智能场景开关设备须通过软件删除设备方式来恢复设备参数功能。除此设备外，其它设备均可使用通断电源方式进行恢复设备参数功能；也可通过软件删除设备方式来恢复设备功能。</string>
+    <string name="help_question_4_title">4.通断电源方式和设备恢复到正常状态结果</string>
+    <string name="help_question_4">答：通断10次AC220V电源的操作方式。 \n操作过程为：先通电，3至5秒的时间范围，设备完全呈现通电状态；再断电，3至5秒的时间范围，设备完全处于断电状态。此步骤过程需重复操作10次，设备即可恢复参数功能。</string>
+    <string name="help_question_5_title">5.App软件与设备连接不成功？</string>
+    <string name="help_question_5">答：通过恢复设备方式再次尝试连接，即断10次电源进行恢复设备参数功能，或进行重启手机上的蓝牙功能并重新进入软件中尝试连接。</string>
+    <string name="help_question_6_title">6.在app软件的智能页面上，点击添加设备进入自动搜索出现部分的设备搜索不到的情况？</string>
+    <string name="help_question_6">答：点击扫描按钮再次搜索设备，检查设备是否通电，或进行恢复设备方式。</string>
+    <string name="help_question_7_title">7.点击设备列表中的选项，无法进入设备调控界面</string>
+    <string name="help_question_7">答：查看当前设备状态是否为连接中或已断开，这两种状态下无法进入设备调控界面。</string>
+
+    <string name="main_icon_main">主页</string>
+    <string name="main_icon_smart">智能</string>
+    <string name="main_icon_user">我的</string>
+    <string name="main_console">控制台</string>
+    <string name="main_region_management">区域管理</string>
+
+    <string name="bar_title_scene_settings">场景设置</string>
+    <string name="bar_title_region_management">区域管理</string>
+    <string name="bar_title_add_device">添加设备</string>
+    <string name="bar_search_device">扫描设备</string>
+    <string name="bar_scene">场景</string>
+    <string name="bar_save">保存</string>
+
+    <string name="dialog_title">提示</string>
+    <string name="dialog_title_2">警告</string>
+    <string name="dialog_title_region_operation">区域操作</string>
+    <string name="dialog_title_enable_permissions">启用权限</string>
+    <string name="dialog_title_select_device">选择设备</string>
+    <string name="dialog_title_select_icon">选择图标</string>
+    <string name="dialog_title_select_timing">选择时间</string>
+    <string name="dialog_message_enable_permissions">根据提示启动必要的权限以运行此程序</string>
+    <string name="dialog_message_enable_ble">启动蓝牙，用于发现设备和连接设备</string>
+    <string name="dialog_message_enable_gps">开启GPS功能，辅蓝牙以发现设备</string>
+    <string name="dialog_message_enable_location">授予定位权限，用于调用GPS功能</string>
+    <string name="dialog_message_delete_scene">是否将此场景移除?</string>
+    <string name="dialog_message_delete_scene_device">是否将设备移除此场景?</string>
+    <string name="dialog_message_add_device_into_empty_list">当前设备列表为空，是否前往添加设备?</string>
+    <string name="dialog_message_save_settings">是否保存配置信息？</string>
+    <string name="dialog_message_initialization_action">是否对此设备进行初始化操作？</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_confirm">确定</string>
+    <string name="dialog_save">保存</string>
+    <string name="dialog_delete">删除</string>
+    <string name="dialog_add_region">添加区域</string>
+    <string name="dialog_add_scene">添加场景</string>
+
+    <string name="toast_add_region">请添加区域</string>
+    <string name="toast_add_device">请添加设备</string>
+    <string name="toast_running">执行\u0020</string>
+    <string name="toast_scene">\u0020场景</string>
+    <string name="dialog_message_enable_location_find">授予定位权限，获取精准定位</string>
+    <string name="toast_no_device_selected">没有选中的设备！</string>
+    <string name="toast_no_device_in_scene">当前场景没有可执行的设备，请在该场景中添加设备</string>
+    <string name="toast_login_success">登录成功</string>
+    <string name="toast_login_error">登录失败</string>
+    <string name="toast_authentication_success">认证成功</string>
+    <string name="toast_authentication_error">认证失败</string>
+    <string name="toast_add_success">添加成功</string>
+    <string name="toast_add_error">添加失败</string>
+    <string name="toast_query_success">查询成功</string>
+    <string name="toast_query_error">查询失败</string>
+    <string name="toast_update_success">更新成功</string>
+    <string name="toast_update_error">更新失败</string>
+    <string name="toast_delete_success">删除成功</string>
+    <string name="toast_delete_error">删除失败</string>
+    <string name="toast_binding_success">绑定成功</string>
+    <string name="toast_binding_error">绑定失败</string>
+    <string name="toast_unbinding_success">解绑成功</string>
+    <string name="toast_unbinding_error">解绑失败</string>
+
+    <string name="smart_smart">智能</string>
+
+    <string name="user_user_agreement">用户协议</string>
+    <string name="user_privacy_policy">隐私政策</string>
+    <string name="user_help_center">帮助中心</string>
+    <string name="user_about_vcom">关于唯康</string>
+    <string name="user_faqs">问题解答</string>
+
+    <string name="side_slip_delete">删除</string>
+    <string name="add_region">添加区域</string>
+    <string name="add_scene">添加场景</string>
+    <string name="no_region">暂无区域</string>
+    <string name="no_scene">暂无场景</string>
+    <string name="no_device">暂无设备</string>
+    <string name="search_device">搜索设备</string>
+    <string name="office">办公室</string>
+    <string name="turn_on_ble">开启蓝牙</string>
+    <string name="turn_on_gps">开启GPS</string>
+    <string name="turn_on_location">定位权限</string>
+    <string name="next">下一步</string>
+    <string name="switch1">开关1</string>
+    <string name="switch2">开关2</string>
+    <string name="switch3">开关3</string>
+    <string name="switch_status">开关状态</string>
+    <string name="brightness">亮度</string>
+    <string name="color_temperature">色温</string>
+    <string name="warm_white">暖白</string>
+    <string name="natural">自然</string>
+    <string name="cold_white">冷白</string>
+    <string name="scene_name">场景名称:\u0020</string>
+    <string name="enter_scene_name">输入场景名称</string>
+    <string name="scene_icon">场景图标</string>
+    <string name="scene_timing">场景定时</string>
+    <string name="select_time">选择时间</string>
+    <string name="add_scene_message">添加设备, 创造生活场景</string>
+    <string name="add_device">+\u0020添加设备</string>
+    <string name="add_new_scene">新场景</string>
+    <string name="delete_scene">删除场景</string>
+    <string name="bind_selected_device">绑定选中设备</string>
+    <string name="logout">退出</string>
+    <string name="connecting">连接中</string>
+    <string name="connected">已连接</string>
+    <string name="open">已开启</string>
+    <string name="closed">已关闭</string>
+    <string name="controllable">可控制</string>
+    <string name="disconnected">已断开</string>
+    <string name="region">区域</string>
+    <string name="all">全部</string>
+
+
+    <string name="Configuration_scene">配置场景</string>
+    <string name="Click_Set_scene">点击设置场景</string>
+    <string name="regionname">区域名称</string>
+
+</resources>

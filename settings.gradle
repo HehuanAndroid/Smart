@@ -1,0 +1,3 @@
+include ':BluetoothLightLib'
+include ':app'
+rootProject.name = "Smart"

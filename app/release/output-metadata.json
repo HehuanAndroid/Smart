@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.vcom.smart",
+  "variantName": "processReleaseResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 104,
+      "versionName": "1.0.4",
+      "outputFile": "VcomSmart_v1.0.4_2020-12-30_17-13.apk"
+    }
+  ]
+}
